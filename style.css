@@ -1,12 +1,13 @@
 body {
   text-align: center;
+  white-space: pre-line;
 }
 header {
   border-bottom: 2px black solid;
 }
 @media (max-aspect-ratio: 1/1) {
   #header {
-    font-size: 5vw;
+    font-size: 10vw;
   }
   #firstLine::after{
     content:"\A";
@@ -14,6 +15,6 @@ header {
 }
 @media(min-aspect-ratio:1/1){
   #header{
-    font-size: 10vw;
+    font-size: 5vw;
   }
 }
