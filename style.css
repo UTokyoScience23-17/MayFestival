@@ -4,7 +4,6 @@ body{
 header{
   border-bottom:2px black solid;
 }
-@media handheld{ 
-  #header{
-  font-size: 64px
-}}
+#header{
+  font-size: 5vw;
+}
