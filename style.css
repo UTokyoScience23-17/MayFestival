@@ -9,7 +9,7 @@ header {
     font-size: 5vw;
   }
   #firstLine::after{
-    content:"<br>";
+    content:"\n";
   }
 }
 @media(min-aspect-ratio:1/1){
