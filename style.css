@@ -1,9 +1,19 @@
-body{
-  text-align:center;
+body {
+  text-align: center;
 }
-header{
-  border-bottom:2px black solid;
+header {
+  border-bottom: 2px black solid;
 }
-#header{
-  font-size: 5vw;
+@media (max-aspect-ratio: 1/1) {
+  #header {
+    font-size: 5vw;
+  }
+  #firstLine::after{
+    content:"<br>";
+  }
+}
+@media(min-aspect-ratio:1/1){
+  #header{
+    font-size: 10vw;
+  }
 }
