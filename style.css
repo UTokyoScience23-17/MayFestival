@@ -7,6 +7,10 @@ header {
   font-weight: 200;
   font-style: italic;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow:column;
 }
 footer{
   border-top: 2px black solid;
