@@ -12,6 +12,14 @@ header {
   #firstLine::after{
     content:"\A";
   }
+  #firstLine{
+    position:relative;
+    left:5vw;
+  }
+  #secondLine{
+    position:relative;
+    right:5vw;
+  }
 }
 @media(min-aspect-ratio:1/1){
   #header{
