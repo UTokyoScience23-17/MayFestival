@@ -8,7 +8,6 @@ header {
   font-weight: 200;
   font-style: italic;
   vertical-align: middle;
-  top:0;
 }
 footer{
   border-top: 2px black solid;
@@ -19,12 +18,10 @@ footer{
   }
   header{
     height:calc(200vw/6);
+    font-size: 10vw;
   }
   h1 {
     font-size: 4.46vw;
-  }
-  #header {
-    font-size: 10vw;
   }
   #firstLine::after {
     content: "\A";
@@ -44,11 +41,9 @@ footer{
   }
   header{
     height:calc(100vw/6);
+    font-size: 5vw;
   }
   h1 {
     font-size: 2.23vw;
-  }
-  #header {
-    font-size: 5vw;
   }
 }
