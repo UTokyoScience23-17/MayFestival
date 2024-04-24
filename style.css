@@ -4,6 +4,12 @@ body {
 }
 header {
   border-bottom: 2px black solid;
+  font-family: "Noto Serif JP",serif;
+  font-weight: 200;
+  font-style: italic;
+}
+footer{
+  border-top: 2px black solid;
 }
 @media (max-aspect-ratio: 1/1) {
   body {
