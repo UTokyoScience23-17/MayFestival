@@ -15,7 +15,7 @@ header {
 footer {
   border-top: 2px black solid;
 }
-main {
+#main {
   font-family: "Zen Maru Gothic", sans-serif;
 }
 @media (max-aspect-ratio: 1/1) {
