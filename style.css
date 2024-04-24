@@ -1,12 +1,14 @@
 body {
   text-align: center;
   white-space: pre-line;
-  font-size:4.46vw;
 }
 header {
   border-bottom: 2px black solid;
 }
 @media (max-aspect-ratio: 1/1) {
+  body{
+    font-size:4.46vw;
+  }
   #header {
     font-size: 10vw;
   }
@@ -15,14 +17,17 @@ header {
   }
   #firstLine{
     position:relative;
-    left:5vw;
+    right:5vw;
   }
   #secondLine{
     position:relative;
-    right:5vw;
+    left:5vw;
   }
 }
 @media(min-aspect-ratio:1/1){
+  body{
+    font-size:2.23vw
+  }
   #header{
     font-size: 5vw;
   }
