@@ -1,6 +1,5 @@
 body {
   text-align: center;
-  white-space: pre-line;
 }
 header {
   border-bottom: 2px black solid;
@@ -25,9 +24,6 @@ footer{
   }
   h1 {
     font-size: 4.46vw;
-  }
-  #firstLine::after {
-    content: "\A";
   }
   #firstLine {
     position: relative;
