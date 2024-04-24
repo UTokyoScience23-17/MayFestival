@@ -6,29 +6,35 @@ header {
   border-bottom: 2px black solid;
 }
 @media (max-aspect-ratio: 1/1) {
-  body{
-    font-size:4.46vw;
+  body {
+    font-size: 3vw;
+  }
+  h1 {
+    font-size: 4.46px;
   }
   #header {
     font-size: 10vw;
   }
-  #firstLine::after{
-    content:"\A";
+  #firstLine::after {
+    content: "\A";
   }
-  #firstLine{
-    position:relative;
-    right:5vw;
+  #firstLine {
+    position: relative;
+    right: 5vw;
   }
-  #secondLine{
-    position:relative;
-    left:5vw;
+  #secondLine {
+    position: relative;
+    left: 5vw;
   }
 }
-@media(min-aspect-ratio:1/1){
-  body{
-    font-size:2.23vw
+@media (min-aspect-ratio: 1/1) {
+  body {
+    font-size: 1.5vw;
   }
-  #header{
+  h1 {
+    font-size: 2.23vw;
+  }
+  #header {
     font-size: 5vw;
   }
 }
