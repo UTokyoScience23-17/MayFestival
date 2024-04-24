@@ -1,7 +1,7 @@
 body {
   text-align: center;
   word-break: break-all;
-  overflow: break-word;
+  overflow-wrap: break-word;
 }
 header {
   border-bottom: 2px black solid;
