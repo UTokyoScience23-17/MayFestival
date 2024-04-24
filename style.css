@@ -4,7 +4,7 @@ body {
 }
 header {
   border-bottom: 2px black solid;
-  font-family: "Noto Serif JP",serif;
+  font-family: "Hina Mincho","Noto Serif JP",serif;
   font-weight: 200;
   font-style: italic;
 }
@@ -16,7 +16,7 @@ footer{
     font-size: 3vw;
   }
   h1 {
-    font-size: 4.46px;
+    font-size: 4.46vw;
   }
   #header {
     font-size: 10vw;
