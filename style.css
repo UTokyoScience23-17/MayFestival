@@ -9,6 +9,9 @@ header {
   font-style: italic;
   vertical-align: middle;
 }
+header p{
+  position:absolute;
+}
 footer{
   border-top: 2px black solid;
 }
