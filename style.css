@@ -8,9 +8,6 @@ header {
   font-style: italic;
   vertical-align: middle;
 }
-header p{
-  height:100%
-}
 footer{
   border-top: 2px black solid;
 }
