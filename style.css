@@ -1,7 +1,5 @@
 body {
   text-align: center;
-  word-break: break-all;
-  overflow-wrap: break-word;
 }
 header {
   border-bottom: 2px black solid;
@@ -16,6 +14,11 @@ header {
 }
 footer{
   border-top: 2px black solid;
+}
+#exp{
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 @media (max-aspect-ratio: 1/1) {
   body {
