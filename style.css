@@ -10,7 +10,7 @@ header {
   vertical-align: middle;
 }
 header p{
-  position:absolute;
+  height:100%
 }
 footer{
   border-top: 2px black solid;
