@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Kiwi+Maru&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Kiwi+Maru&display=swap");
 body {
   text-align: center;
 }
@@ -19,6 +19,25 @@ footer {
 #main {
   font-family: "Kiwi Maru", sans-serif;
 }
+.slide-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+.slide{
+  height:100%;
+  object-fit:cover;
+  animation: slidIn 2s ease-in-out infinite,8s paused;
+}
+@keyframes slidIn {
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(100%);
+  }
+}
 @media (max-aspect-ratio: 1/1) {
   body {
     font-size: 3vw;
@@ -38,6 +57,9 @@ footer {
     position: relative;
     left: 5vw;
   }
+  .slide-container {
+    height: 50vh;
+  }
 }
 @media (min-aspect-ratio: 1/1) {
   body {
@@ -52,5 +74,8 @@ footer {
   }
   br.mobile {
     display: none;
+  }
+  .slide-container {
+    height: 100vh;
   }
 }
