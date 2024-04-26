@@ -24,7 +24,6 @@ footer {
   width:100%
 }
 .slide {
-  height: 100%;
   object-fit: contain;
   position:absolute;
   left: 50%;
@@ -35,47 +34,65 @@ footer {
     transform:translateX(-250%);
     filter: blur(10px);
     display: none;
+    height:calc(100%-20px);
+    top:10px;
   }/*0s*/
   12.86%{
     display:initial;
     transform:translateX(-250%);
     filter: blur(10px);
     animation-timing-function: ease-in;
+    height:calc(100%-20px);
+    top:10px;
   }/*9s*/
   15.71%{
     transform: translateX(-150%);
     filter:blur(10px);
     animation-timing-function: ease-out;
+    height:calc(100%-20px);
+    top:10px;
   }/*11s*/
   27.14%{
     transform:translateX(-150%);
     filter: blur(10px);
     animation-timing-function: ease-in;
+    height:calc(100%-20px);
+    top:10px;
   }/*19s*/
   30%{
     transform: translateX(-50%);
     animation-timing-function: ease-out;
     filter:blur(0);
+    height:100%;
+    top:0px;
   }/*21s*/
   41.43%{
     transform: translateX(-50%);
     animation-timing-function: ease-in;
     filter:blur(0);
+    height:100%;
+    top:0px;
   }/*29s*/
   44.29%{
     transform: translateX(50%);
     filter:blur(10px);
     animation-timing-function: ease-out;
+    height:calc(100%-20px);
+    top:10px;
   }/*31s*/
   55.71%{
     transform:translateX(50%);
     filter:blur(10px);
     animation-timing-function: ease-in;
+    height:calc(100%-20px);
+    top:10px;
   }/*39s*/
   58.57%{
     transform: translateX(150%);
     filter:blur(10px);
     animation-timing-function: ease-out;
+    height:calc(100%-20px);
+    top:10px;
   }/*41s*/
   58.58%{
     display:none;
