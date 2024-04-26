@@ -22,6 +22,7 @@ footer {
 .slide-container {
   overflow: hidden;
   width: 100%;
+  display:inline-block;
 }
 .slide {
   object-fit: contain;
