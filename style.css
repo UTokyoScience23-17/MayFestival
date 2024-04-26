@@ -28,8 +28,58 @@ footer {
   object-fit: contain;
   position:absolute;
   left:50%;
-  transform:translateX(-50%);
+  animation:slide 70s infinite;
 }
+@keyframes slide {
+  0%{
+    display: none;
+  }/*0s*/
+  12.86%{
+    transform:translateX(-250%);
+    filter: blur(10px);
+    animation-timing-function: ease-in;
+  }/*9s*/
+  15.71%{
+    transform: translateX(-150%);
+    filter:blur(10px);
+    animation-timing-function: ease-out;
+  }/*11s*/
+  27.14%{
+    transform:translateX(-150%);
+    filter: blur(10px);
+    animation-timing-function: ease-in;
+  }/*19s*/
+  30%{
+    transform: translateX(-50%);
+    animation-timing-function: ease-out;
+  }/*21s*/
+  41.43%{
+    transform: translateX(-50%);
+    animation-timing-function: ease-in;
+  }/*29s*/
+  44.29%{
+    transform: translateX(50%);
+    filter:blur(10px);
+    animation-timing-function: ease-out;
+  }/*31s*/
+  55.71%{
+    transform:translateX(50%);
+    filter:blur(10px);
+    animation-timing-function: ease-in;
+  }/*39s*/
+  58.57%{
+    transform: translateX(150%);
+    filter:blur(10px);
+    animation-timing-function: ease-out;
+  }/*41s*/
+  58.58%{
+    display:none;
+  }
+  100%{
+    display:none;
+  }
+}
+
 @media (max-aspect-ratio: 1/1) {
   body {
     font-size: 3vw;
