@@ -21,11 +21,12 @@ footer {
 }
 .slide-container {
   overflow: hidden;
+  width:100%
 }
 .slide {
   height: 100%;
-  width:100%;
-  object-fit: cover;
+  object-fit: contain;
+  position:absolute;
 }
 @media (max-aspect-ratio: 1/1) {
   body {
@@ -48,7 +49,6 @@ footer {
   }
   .slide-container {
     height: 50vh;
-    width: calc(50vh * 4 / 3);
   }
 }
 @media (min-aspect-ratio: 1/1) {
@@ -67,6 +67,5 @@ footer {
   }
   .slide-container {
     height: 100vh;
-    width: calc(100vh * 4 / 3);
   }
 }
