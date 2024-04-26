@@ -29,7 +29,6 @@ footer {
   position: absolute;
   left: 50%;
   animation: slide 70s infinite both;
-  height:calc(100% + 20px);
   margin:-10px
 }
 @keyframes slide {
