@@ -31,7 +31,6 @@ footer {
   left: 50%;
   animation: slide 70s infinite both;
   height:100%;
-  margin:-10px
 }
 @keyframes slide {
   0% {
