@@ -5,7 +5,9 @@ body {
 }
 header {
   border-bottom: 2px black solid;
-  background: cover no-repeat center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+  background-position: center;
 }
 footer {
   border-top: 2px black solid;
