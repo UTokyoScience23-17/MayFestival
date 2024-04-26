@@ -34,6 +34,7 @@ footer {
     display: none;
   }/*0s*/
   12.86%{
+    display:initial;
     transform:translateX(-200%);
     filter: blur(10px);
     animation-timing-function: ease-in;
