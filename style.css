@@ -27,7 +27,7 @@ footer {
   height: 100%;
   object-fit: contain;
   position:relative;
-  animation:slide 70s infinite;
+  animation:slide 70s infinite both;
 }
 @keyframes slide {
   0%{
@@ -52,6 +52,7 @@ footer {
   30%{
     transform: translateX(0%);
     animation-timing-function: ease-out;
+    filter:blur(0);
   }/*21s*/
   41.43%{
     transform: translateX(0%);
