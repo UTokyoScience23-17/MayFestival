@@ -2,6 +2,7 @@
 body {
   text-align: center;
   margin:0;
+  font-family: "Kiwi Maru", sans-serif;
 }
 header {
   border-bottom: 2px black solid;
@@ -11,9 +12,6 @@ header {
 }
 footer {
   border-top: 2px black solid;
-}
-#main {
-  font-family: "Kiwi Maru", sans-serif;
 }
 .slide-container {
   overflow: hidden;
