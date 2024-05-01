@@ -116,6 +116,9 @@ footer {
   #copyright {
     font-size: 2vw;
   }
+  #image{
+    font-size:2vw;
+  }
 }
 @media (min-aspect-ratio: 1/1) {
   body {
@@ -145,5 +148,8 @@ footer {
   }
   #copyright {
     font-size: 1vw;
+  }
+  #image{
+    font-size:1vw;
   }
 }
