@@ -114,7 +114,7 @@ footer {
     margin: 10vw;
   }
   #copyright {
-    font-size: 1vw;
+    font-size: 2vw;
   }
 }
 @media (min-aspect-ratio: 1/1) {
@@ -144,6 +144,6 @@ footer {
     margin: 5vw;
   }
   #copyright {
-    font-size: 0.5vw;
+    font-size: 1vw;
   }
 }
