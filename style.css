@@ -3,15 +3,17 @@ body {
   text-align: center;
   margin: 0;
   font-family: "Kiwi Maru", sans-serif;
+  background-image: url(img/background.png);
+  background-size: cover;
 }
 header {
-  border-bottom: 2px black solid;
+  border-bottom: 2px transparent solid;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 footer {
-  border-top: 2px black solid;
+  border-top: 2px transparent solid;
 }
 .X {
   width: 20vw;
