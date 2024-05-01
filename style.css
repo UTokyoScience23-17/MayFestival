@@ -3,8 +3,14 @@ body {
   text-align: center;
   margin: 0;
   font-family: "Kiwi Maru", sans-serif;
+  position:relative;
+  overflow: hidden;
+  z-index: 0;
+}
+body::before{
   background-image: url(img/background.png);
   background-size: cover;
+  filter:blur(5px);
 }
 header {
   border-bottom: 2px transparent solid;
