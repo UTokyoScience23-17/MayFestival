@@ -5,7 +5,6 @@ body {
   font-family: "Kiwi Maru", sans-serif;
 }
 header {
-  border-bottom: 0.1vh black solid;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,8 +13,10 @@ header {
 }
 #main {
   box-shadow: 0 0 0.5vh 0.5vh gray;
-  border-bottom: 0.1vh black solid;
   margin-bottom: 0.5vh;
+}
+footer{
+  background-color:#ccc;
 }
 .X {
   width: 20vw;
