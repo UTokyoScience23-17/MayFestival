@@ -8,7 +8,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0 0 0.5vh 0.5vh gray;
   margin-bottom: 0.5vh;
 }
 #main {
