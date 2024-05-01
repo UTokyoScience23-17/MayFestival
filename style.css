@@ -5,13 +5,15 @@ body {
   font-family: "Kiwi Maru", sans-serif;
 }
 header {
-  border-bottom: 2px black solid;
+  border-bottom: 0.5vh transparent solid;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  box-shadow: 0 0 0.5vh 0.5vh gray;
 }
-footer {
-  border-top: 2px black solid;
+main {
+  box-shadow: 0 0 0.5vh 0.5vh gray;
+  border-bottom: 0.5vh transparent solid;
 }
 .X {
   width: 20vw;
@@ -116,8 +118,8 @@ footer {
   #copyright {
     font-size: 2vw;
   }
-  #image{
-    font-size:2vw;
+  #image {
+    font-size: 2vw;
   }
 }
 @media (min-aspect-ratio: 1/1) {
@@ -149,7 +151,7 @@ footer {
   #copyright {
     font-size: 1vw;
   }
-  #image{
-    font-size:1vw;
+  #image {
+    font-size: 1vw;
   }
 }
