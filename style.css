@@ -9,9 +9,10 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 0.5vh;
+  box-shadow: 0 0.5vh 0.5vh 0 gray;
 }
 #main {
-  box-shadow: 0 0 0.5vh 0.5vh gray;
+  box-shadow: 0 0.5vh 0.5vh 0 gray;
   margin-bottom: 0.5vh;
 }
 footer{
