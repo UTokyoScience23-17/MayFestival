@@ -39,6 +39,9 @@ footer{
   animation: slide 70s infinite both;
   height: 100%;
 }
+#counter{
+  margin:auto
+}
 @keyframes slide {
   0% {
     transform: translateX(-250%);
