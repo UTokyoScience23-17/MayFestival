@@ -39,7 +39,7 @@ footer {
   margin:0 1vw;
 }
 .pic_exp{
-  margin:1vw
+  margin:0.5vw
 }
 @keyframes slide {
   0% {
@@ -131,7 +131,7 @@ footer {
     justify-content: center;
   }
   #items img {
-    width:96vw;
+    width:93vw;
   }
 }
 @media (min-aspect-ratio: 1/1) {
@@ -170,6 +170,6 @@ footer {
     justify-content: center;
   }
   #items img {
-    width: calc(92vw / 3);
+    width: calc(95vw / 3);
   }
 }
