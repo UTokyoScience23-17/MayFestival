@@ -15,16 +15,8 @@ header {
   box-shadow: 0 0.5vh 0.5vh 0 gray;
   margin-bottom: 0.5vh;
 }
-footer{
-  background-color:#ccc;
-}
-.X {
-  width: 20vw;
-  margin: 10vw;
-}
-.Instagram {
-  width: 20vw;
-  margin: 10vw;
+footer {
+  background-color: #ccc;
 }
 .slide-container {
   overflow: hidden;
@@ -39,8 +31,12 @@ footer{
   animation: slide 70s infinite both;
   height: 100%;
 }
-#counter{
-  margin:auto
+#counter {
+  margin: auto;
+}
+#items {
+  display: flex;
+  justify-content: center;
 }
 @keyframes slide {
   0% {
@@ -127,6 +123,8 @@ footer{
   #image {
     font-size: 2vw;
   }
+  #items img {
+  }
 }
 @media (min-aspect-ratio: 1/1) {
   body {
@@ -159,5 +157,7 @@ footer{
   }
   #image {
     font-size: 1vw;
+  }
+  #items img {
   }
 }
