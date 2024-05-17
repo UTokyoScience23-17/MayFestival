@@ -41,6 +41,9 @@ footer {
 .pic_exp{
   margin:0.5vw
 }
+#item_exp > p{
+  margin-bottom: 0;
+}
 @keyframes slide {
   0% {
     transform: translateX(-250%);
@@ -133,6 +136,9 @@ footer {
   #items img {
     width:93vw;
   }
+  #item_exp > p{
+    padding-bottom: 3vw;
+  }
 }
 @media (min-aspect-ratio: 1/1) {
   body {
@@ -171,5 +177,8 @@ footer {
   }
   #items img {
     width: calc(95vw / 3);
+  }
+  #item_exp > p{
+    padding-bottom: 1.5vw;
   }
 }
