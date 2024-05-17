@@ -38,6 +38,9 @@ footer {
   display: flex;
   margin:0 1vw;
 }
+.pic_exp{
+  margin:1vw
+}
 @keyframes slide {
   0% {
     transform: translateX(-250%);
@@ -128,7 +131,7 @@ footer {
     justify-content: center;
   }
   #items img {
-    width:98vw;
+    width:96vw;
   }
 }
 @media (min-aspect-ratio: 1/1) {
@@ -167,6 +170,6 @@ footer {
     justify-content: center;
   }
   #items img {
-    width: calc(98vw / 3);
+    width: calc(92vw / 3);
   }
 }
