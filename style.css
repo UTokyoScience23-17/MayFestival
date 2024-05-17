@@ -36,7 +36,7 @@ footer {
 }
 #items {
   display: flex;
-  justify-content: center;
+  margin:0 1vw;
 }
 @keyframes slide {
   0% {
@@ -123,7 +123,12 @@ footer {
   #image {
     font-size: 2vw;
   }
+  #items{
+    flex-flow: column;
+    justify-content: center;
+  }
   #items img {
+    width:98vw;
   }
 }
 @media (min-aspect-ratio: 1/1) {
@@ -158,6 +163,10 @@ footer {
   #image {
     font-size: 1vw;
   }
+  #items{
+    justify-content: center;
+  }
   #items img {
+    width: calc(98vw / 3);
   }
 }
