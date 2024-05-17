@@ -95,7 +95,7 @@ footer {
   header {
     height: calc(200vw / 7);
     font-size: 10vw;
-    background-image: url("img/header_mobile.JPG");
+    background-image: url("img/header_mobile.jpg");
     background-position-y: 60%;
   }
   h1 {
